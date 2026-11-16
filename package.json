@@ -1,0 +1,16 @@
+{
+  "name": "qrius-leadmanager-automation-mukeshshrestha",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "typecheck": "tsc --noEmit",
+    "codegen": "playwright codegen http://localhost:5173/login"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.15.30",
+    "typescript": "~5.4.5"
+  }
+}
